@@ -2,7 +2,11 @@
 export default {
   content: ['./index.html', './src/**/*.{js,jsx,ts,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'image-michael-jordan': "url('./src/assets/image-michael-jordan.png')",
+      },
+    },
   },
   plugins: [],
 }

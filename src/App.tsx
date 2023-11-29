@@ -1,3 +1,5 @@
+import { Layouts } from './layouts'
+
 export function App() {
-  return <div>App</div>
+  return <Layouts.Public />
 }
