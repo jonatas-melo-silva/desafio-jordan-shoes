@@ -2,7 +2,7 @@ import { ComponentProps } from 'react'
 import { ClassNameValue, twMerge } from 'tailwind-merge'
 
 const base = 'fill-white h-12 w-12 dark:h-10 dark:w-10' as ClassNameValue
-const dark = 'dark:fill-white' as ClassNameValue
+const dark = 'dark:fill-gray-50' as ClassNameValue
 
 export type LogoJordanProps = ComponentProps<'svg'>
 
