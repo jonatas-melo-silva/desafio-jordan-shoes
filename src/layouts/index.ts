@@ -1,1 +1,1 @@
-export * as Layouts from './Public'
+export * as Layouts from './Default'
