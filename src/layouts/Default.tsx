@@ -4,12 +4,13 @@ import * as Templates from '../templates'
 
 const base =
   'flex min-h-screen w-full flex-col items-center text-neutral-900 bg-white antialiased' as ClassNameValue
+const dark = 'dark:bg-zinc-900 dark:text-gray-200' as ClassNameValue
 
 export type PublicProps = ComponentProps<'div'>
 
-export function Public({ className, ...props }: PublicProps) {
+export function Default({ className, ...props }: PublicProps) {
   return (
-    <div className={twMerge(base, className)} {...props}>
+    <div className={twMerge(base, dark, className)} {...props}>
       <Templates.Header />
 
       <Templates.Banner />

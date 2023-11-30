@@ -3,8 +3,8 @@ import { Home } from './pages'
 
 export function App() {
   return (
-    <Layouts.Public>
+    <Layouts.Default>
       <Home />
-    </Layouts.Public>
+    </Layouts.Default>
   )
 }

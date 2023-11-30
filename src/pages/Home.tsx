@@ -11,9 +11,9 @@ export function Home() {
         </p>
       </section>
 
-      <div className="grid w-full grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      <section className="grid w-full grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
         <div className="col-span-1 row-span-1 flex w-full flex-col gap-4 md:gap-6">
-          <div className="flex h-48  items-center justify-center rounded bg-sky-50">
+          <div className="flex h-48  items-center justify-center rounded bg-sky-50 dark:bg-zinc-800">
             <img
               className="flex-shrink object-cover"
               src="../../src/assets/air-jordan-1-high-zoom-cmft-tropical-twist-1-400.png"
@@ -24,14 +24,16 @@ export function Home() {
             <p className="text-lg font-medium leading-normal">
               Air Jordan 1 High Zoom CMFT Tropical Twist
             </p>
-            <span className="text-base font-medium text-indigo-400">
+            <span className="text-base font-medium text-indigo-400 dark:text-blue-400">
               Tênis Air Jordan
             </span>
           </div>
-          <span className="text-lg font-medium md:text-xl">R$ 1.049,00</span>
+          <span className="text-lg font-medium dark:text-gray-50 md:text-xl">
+            R$ 1.049,00
+          </span>
         </div>
         <div className="col-span-1 row-span-1 flex w-full flex-col gap-4 md:gap-6">
-          <div className="flex h-48  items-center justify-center rounded bg-sky-50">
+          <div className="flex h-48  items-center justify-center rounded bg-sky-50 dark:bg-zinc-800">
             <img
               className="flex-shrink object-cover"
               src="../../src/assets/air-jordan-1-high-zoom-cmft-tropical-twist-1-400.png"
@@ -42,14 +44,16 @@ export function Home() {
             <p className="text-lg font-medium leading-normal">
               Air Jordan 1 High Zoom CMFT Tropical Twist
             </p>
-            <span className="text-base font-medium text-indigo-400">
+            <span className="text-base font-medium text-indigo-400 dark:text-blue-400">
               Tênis Air Jordan
             </span>
           </div>
-          <span className="text-lg font-medium md:text-xl">R$ 1.049,00</span>
+          <span className="text-lg font-medium dark:text-gray-50 md:text-xl">
+            R$ 1.049,00
+          </span>
         </div>
         <div className="col-span-1 row-span-1 flex w-full flex-col gap-4 md:gap-6">
-          <div className="flex h-48  items-center justify-center rounded bg-sky-50">
+          <div className="flex h-48  items-center justify-center rounded bg-sky-50 dark:bg-zinc-800">
             <img
               className="flex-shrink object-cover"
               src="../../src/assets/air-jordan-1-high-zoom-cmft-tropical-twist-1-400.png"
@@ -60,14 +64,16 @@ export function Home() {
             <p className="text-lg font-medium leading-normal">
               Air Jordan 1 High Zoom CMFT Tropical Twist
             </p>
-            <span className="text-base font-medium text-indigo-400">
+            <span className="text-base font-medium text-indigo-400 dark:text-blue-400">
               Tênis Air Jordan
             </span>
           </div>
-          <span className="text-lg font-medium md:text-xl">R$ 1.049,00</span>
+          <span className="text-lg font-medium dark:text-gray-50 md:text-xl">
+            R$ 1.049,00
+          </span>
         </div>
         <div className="col-span-1 row-span-1 flex w-full flex-col gap-4 md:gap-6">
-          <div className="flex h-48  items-center justify-center rounded bg-sky-50">
+          <div className="flex h-48  items-center justify-center rounded bg-sky-50 dark:bg-zinc-800">
             <img
               className="flex-shrink object-cover"
               src="../../src/assets/air-jordan-1-high-zoom-cmft-tropical-twist-1-400.png"
@@ -78,14 +84,16 @@ export function Home() {
             <p className="text-lg font-medium leading-normal">
               Air Jordan 1 High Zoom CMFT Tropical Twist
             </p>
-            <span className="text-base font-medium text-indigo-400">
+            <span className="text-base font-medium text-indigo-400 dark:text-blue-400">
               Tênis Air Jordan
             </span>
           </div>
-          <span className="text-lg font-medium md:text-xl">R$ 1.049,00</span>
+          <span className="text-lg font-medium dark:text-gray-50 md:text-xl">
+            R$ 1.049,00
+          </span>
         </div>
         <div className="col-span-1 row-span-1 flex w-full flex-col gap-4 md:gap-6">
-          <div className="flex h-48  items-center justify-center rounded bg-sky-50">
+          <div className="flex h-48  items-center justify-center rounded bg-sky-50 dark:bg-zinc-800">
             <img
               className="flex-shrink object-cover"
               src="../../src/assets/air-jordan-1-high-zoom-cmft-tropical-twist-1-400.png"
@@ -96,14 +104,16 @@ export function Home() {
             <p className="text-lg font-medium leading-normal">
               Air Jordan 1 High Zoom CMFT Tropical Twist
             </p>
-            <span className="text-base font-medium text-indigo-400">
+            <span className="text-base font-medium text-indigo-400 dark:text-blue-400">
               Tênis Air Jordan
             </span>
           </div>
-          <span className="text-lg font-medium md:text-xl">R$ 1.049,00</span>
+          <span className="text-lg font-medium dark:text-gray-50 md:text-xl">
+            R$ 1.049,00
+          </span>
         </div>
         <div className="col-span-1 row-span-1 flex w-full flex-col gap-4 md:gap-6">
-          <div className="flex h-48  items-center justify-center rounded bg-sky-50">
+          <div className="flex h-48  items-center justify-center rounded bg-sky-50 dark:bg-zinc-800">
             <img
               className="flex-shrink object-cover"
               src="../../src/assets/air-jordan-1-high-zoom-cmft-tropical-twist-1-400.png"
@@ -114,13 +124,15 @@ export function Home() {
             <p className="text-lg font-medium leading-normal">
               Air Jordan 1 High Zoom CMFT Tropical Twist
             </p>
-            <span className="text-base font-medium text-indigo-400">
+            <span className="text-base font-medium text-indigo-400 dark:text-blue-400">
               Tênis Air Jordan
             </span>
           </div>
-          <span className="text-lg font-medium md:text-xl">R$ 1.049,00</span>
+          <span className="text-lg font-medium dark:text-gray-50 md:text-xl">
+            R$ 1.049,00
+          </span>
         </div>
-      </div>
+      </section>
     </>
   )
 }
