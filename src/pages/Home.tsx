@@ -12,10 +12,13 @@ export function Home() {
       </section>
 
       <section className="grid w-full grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-        <div className="col-span-1 row-span-1 flex w-full flex-col gap-4 md:gap-6">
+        <a
+          href="#"
+          className="col-span-1 row-span-1 flex w-full flex-col gap-4 rounded outline-none dark:focus-within:ring-2 dark:focus-within:ring-indigo-400 md:gap-6"
+        >
           <div className="flex h-48  items-center justify-center rounded bg-sky-50 dark:bg-zinc-800">
             <img
-              className="flex-shrink object-cover"
+              className="flex-shrink object-cover transition-all duration-300 ease-in-out hover:scale-110"
               src="../../src/assets/air-jordan-1-high-zoom-cmft-tropical-twist-1-400.png"
               alt="produto"
             />
@@ -31,11 +34,14 @@ export function Home() {
           <span className="text-lg font-medium dark:text-gray-50 md:text-xl">
             R$ 1.049,00
           </span>
-        </div>
-        <div className="col-span-1 row-span-1 flex w-full flex-col gap-4 md:gap-6">
+        </a>
+        <a
+          href="#"
+          className="col-span-1 row-span-1 flex w-full flex-col gap-4 rounded outline-none dark:focus-within:ring-2 dark:focus-within:ring-indigo-400 md:gap-6"
+        >
           <div className="flex h-48  items-center justify-center rounded bg-sky-50 dark:bg-zinc-800">
             <img
-              className="flex-shrink object-cover"
+              className="flex-shrink object-cover transition-all duration-300 ease-in-out hover:scale-110"
               src="../../src/assets/air-jordan-1-high-zoom-cmft-tropical-twist-1-400.png"
               alt="produto"
             />
@@ -51,11 +57,14 @@ export function Home() {
           <span className="text-lg font-medium dark:text-gray-50 md:text-xl">
             R$ 1.049,00
           </span>
-        </div>
-        <div className="col-span-1 row-span-1 flex w-full flex-col gap-4 md:gap-6">
+        </a>
+        <a
+          href="#"
+          className="col-span-1 row-span-1 flex w-full flex-col gap-4 rounded outline-none dark:focus-within:ring-2 dark:focus-within:ring-indigo-400 md:gap-6"
+        >
           <div className="flex h-48  items-center justify-center rounded bg-sky-50 dark:bg-zinc-800">
             <img
-              className="flex-shrink object-cover"
+              className="flex-shrink object-cover transition-all duration-300 ease-in-out hover:scale-110"
               src="../../src/assets/air-jordan-1-high-zoom-cmft-tropical-twist-1-400.png"
               alt="produto"
             />
@@ -71,11 +80,14 @@ export function Home() {
           <span className="text-lg font-medium dark:text-gray-50 md:text-xl">
             R$ 1.049,00
           </span>
-        </div>
-        <div className="col-span-1 row-span-1 flex w-full flex-col gap-4 md:gap-6">
+        </a>
+        <a
+          href="#"
+          className="col-span-1 row-span-1 flex w-full flex-col gap-4 rounded outline-none dark:focus-within:ring-2 dark:focus-within:ring-indigo-400 md:gap-6"
+        >
           <div className="flex h-48  items-center justify-center rounded bg-sky-50 dark:bg-zinc-800">
             <img
-              className="flex-shrink object-cover"
+              className="flex-shrink object-cover transition-all duration-300 ease-in-out hover:scale-110"
               src="../../src/assets/air-jordan-1-high-zoom-cmft-tropical-twist-1-400.png"
               alt="produto"
             />
@@ -91,11 +103,14 @@ export function Home() {
           <span className="text-lg font-medium dark:text-gray-50 md:text-xl">
             R$ 1.049,00
           </span>
-        </div>
-        <div className="col-span-1 row-span-1 flex w-full flex-col gap-4 md:gap-6">
+        </a>
+        <a
+          href="#"
+          className="col-span-1 row-span-1 flex w-full flex-col gap-4 rounded outline-none dark:focus-within:ring-2 dark:focus-within:ring-indigo-400 md:gap-6"
+        >
           <div className="flex h-48  items-center justify-center rounded bg-sky-50 dark:bg-zinc-800">
             <img
-              className="flex-shrink object-cover"
+              className="flex-shrink object-cover transition-all duration-300 ease-in-out hover:scale-110"
               src="../../src/assets/air-jordan-1-high-zoom-cmft-tropical-twist-1-400.png"
               alt="produto"
             />
@@ -111,11 +126,14 @@ export function Home() {
           <span className="text-lg font-medium dark:text-gray-50 md:text-xl">
             R$ 1.049,00
           </span>
-        </div>
-        <div className="col-span-1 row-span-1 flex w-full flex-col gap-4 md:gap-6">
+        </a>
+        <a
+          href="#"
+          className="col-span-1 row-span-1 flex w-full flex-col gap-4 rounded outline-none dark:focus-within:ring-2 dark:focus-within:ring-indigo-400 md:gap-6"
+        >
           <div className="flex h-48  items-center justify-center rounded bg-sky-50 dark:bg-zinc-800">
             <img
-              className="flex-shrink object-cover"
+              className="flex-shrink object-cover transition-all duration-300 ease-in-out hover:scale-110"
               src="../../src/assets/air-jordan-1-high-zoom-cmft-tropical-twist-1-400.png"
               alt="produto"
             />
@@ -131,7 +149,7 @@ export function Home() {
           <span className="text-lg font-medium dark:text-gray-50 md:text-xl">
             R$ 1.049,00
           </span>
-        </div>
+        </a>
       </section>
     </>
   )
