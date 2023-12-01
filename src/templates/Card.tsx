@@ -18,8 +18,8 @@ export function Card({ product, className, ...props }: CardProps) {
         <C.Image alt={product.name} src={product.image} />
       </C.Prefix>
       <C.Wrapper>
-        <C.Title>{product.name}</C.Title>
-        <C.Slug>{product.category}</C.Slug>
+        <C.Name>{product.name}</C.Name>
+        <C.Category>{product.category}</C.Category>
       </C.Wrapper>
       <C.Price>{formatPrice(product.price)}</C.Price>
     </C.Root>
