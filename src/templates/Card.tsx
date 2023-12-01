@@ -1,26 +1,27 @@
 import { ComponentProps } from 'react'
 import { ClassNameValue, twMerge } from 'tailwind-merge'
 import { Card as C } from '../components'
+import { Product } from '../types'
+import { formatPrice } from '../utils'
 
 const base = '' as ClassNameValue
 const dark = '' as ClassNameValue
 
 export type CardProps = ComponentProps<'a'> & {
-  alt?: string
-  src?: string
+  product: Product
 }
 
-export function Card({ alt, src, className, ...props }: CardProps) {
+export function Card({ product, className, ...props }: CardProps) {
   return (
     <C.Root className={twMerge(base, dark, className)} {...props}>
       <C.Prefix>
-        <C.Image alt={alt} src={src} />
+        <C.Image alt={product.name} src={product.image} />
       </C.Prefix>
       <C.Wrapper>
-        <C.Title>Air Jordan 1 High Zoom CMFT Tropical Twist</C.Title>
-        <C.Slug>Tênis Air Jordan</C.Slug>
+        <C.Title>{product.name}</C.Title>
+        <C.Slug>{product.category}</C.Slug>
       </C.Wrapper>
-      <C.Price>R$ 1.049,00</C.Price>
+      <C.Price>{formatPrice(product.price)}</C.Price>
     </C.Root>
   )
 }
