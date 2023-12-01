@@ -5,16 +5,16 @@ import { Card as C } from '../components'
 const base = '' as ClassNameValue
 const dark = '' as ClassNameValue
 
-export type CardProps = ComponentProps<'a'>
+export type CardProps = ComponentProps<'a'> & {
+  alt?: string
+  src?: string
+}
 
-export function Card({ className, ...props }: CardProps) {
+export function Card({ alt, src, className, ...props }: CardProps) {
   return (
     <C.Root className={twMerge(base, dark, className)} {...props}>
       <C.Prefix>
-        <C.Image
-          src="../../src/assets/air-jordan-1-high-zoom-cmft-tropical-twist-1-400.png"
-          alt="produto"
-        />
+        <C.Image alt={alt} src={src} />
       </C.Prefix>
       <C.Wrapper>
         <C.Title>Air Jordan 1 High Zoom CMFT Tropical Twist</C.Title>
