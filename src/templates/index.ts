@@ -1,5 +1,6 @@
 import { Banner, BannerProps } from './Banner'
+import { Card, CardProps } from './Card'
 import { Header, HeaderProps } from './Header'
 
-export { Banner, Header }
-export type { BannerProps, HeaderProps }
+export { Banner, Card, Header }
+export type { BannerProps, CardProps, HeaderProps }

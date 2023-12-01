@@ -1,2 +1,6 @@
-import { LogoJordan } from './LogoJordan'
-export { LogoJordan }
+import * as Card from './Card'
+import { LogoJordan, LogoJordanProps } from './LogoJordan'
+
+export { Card, LogoJordan }
+
+export type { LogoJordanProps }
