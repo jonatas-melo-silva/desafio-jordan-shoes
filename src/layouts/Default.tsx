@@ -15,7 +15,7 @@ export function Default({ className, ...props }: PublicProps) {
 
       <Templates.Banner />
 
-      <main className="flex flex-col items-center justify-center gap-16 px-5 py-20 md:max-w-[1216px] xl:px-0">
+      <main className="flex flex-col items-center justify-center gap-10 px-6 py-14 md:max-w-[1216px] lg:gap-16 lg:py-20 xl:px-0">
         {props.children}
       </main>
     </div>

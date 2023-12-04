@@ -1,7 +1,7 @@
 import { ComponentProps } from 'react'
 import { ClassNameValue, twMerge } from 'tailwind-merge'
 
-const base = 'flex flex-col items-start gap-1 md:gap-3' as ClassNameValue
+const base = 'flex flex-col items-start gap-3' as ClassNameValue
 
 export type WrapperProps = ComponentProps<'div'>
 

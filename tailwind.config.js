@@ -4,7 +4,9 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'image-michael-jordan': "url('./src/assets/image-michael-jordan.png')",
+        imageDesktop: "url('./src/assets/image-michael-jordan-desktop.png')",
+        imageTablet: "url('./src/assets/image-michael-jordan-tablet.png')",
+        imageMobile: "url('./src/assets/image-michael-jordan-mobile.png')",
       },
     },
   },

@@ -1,7 +1,8 @@
 import { ComponentProps } from 'react'
 import { ClassNameValue, twMerge } from 'tailwind-merge'
 
-const base = 'text-lg font-medium leading-normal' as ClassNameValue
+const base =
+  'text-base font-medium leading-tight md:text-lg md:leading-normal' as ClassNameValue
 
 export type NameProps = ComponentProps<'h3'>
 

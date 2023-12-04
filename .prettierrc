@@ -16,6 +16,9 @@
     "defaultVariants",
     "dark",
     "hover",
-    "focus"
+    "focus",
+    "imageDesktop",
+    "imageTablet",
+    "imageMobile"
   ]
 }
